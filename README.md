@@ -1,7 +1,7 @@
 # Welcome to my 15 Puzzle
 
 _Link:_
-_Paste Link here_
+_https://melkerolofsson.github.io/15-Puzzle/_
 
 This project was created as part of a test while looking for a LIA internship. It's built completely with React.
 

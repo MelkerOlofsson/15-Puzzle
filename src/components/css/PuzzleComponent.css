@@ -1,0 +1,119 @@
+.gamesection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(#534b62, rgba(0, 0, 0, 0.9));
+  min-height: 79vh;
+}
+
+.puzzlesection {
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+.puzzlecontainer {
+  margin: auto;
+  background: center/cover url(/wood-texture.jpg);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  display: grid;
+  gap: 0.5rem;
+  max-width: 72vh;
+  max-height: 72vh;
+}
+
+.puzzlebox {
+  background: center/cover url(/oak-texture.jpg);
+  font-size: 22pt;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.puzzlebox::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+#LastTile {
+  margin: auto;
+  border: none;
+}
+
+.wincontainer {
+  background-color: antiquewhite;
+  color: green;
+  border: 1px solid black;
+  border-radius: 5rem;
+  padding: 0.1rem 1rem;
+  margin-top: 0.2rem;
+  text-align: center;
+}
+
+.shufflebutton {
+  font-size: 24pt;
+  border: 1px solid black;
+  border-radius: 1rem;
+  color: black;
+  background-color: antiquewhite;
+  flex: 1;
+  padding: 0.5rem;
+}
+
+.shufflebutton:hover {
+  cursor: pointer;
+  background-color: rgb(181, 169, 152);
+}
+
+.gameinputs {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.2rem;
+}
+
+.statscontainer {
+  padding: 0.3rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: antiquewhite;
+}
+
+.statscontainer > p {
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+.statscontainer > h3 {
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .puzzlecontainer {
+    max-width: 60vh;
+    max-height: 60vh;
+  }
+
+  .puzzlebox {
+    font-size: 20pt;
+  }
+}
+
+@media (max-width: 700px) {
+  .puzzlecontainer {
+    max-width: 45vh;
+    max-height: 45vh;
+  }
+
+  .puzzlebox {
+    border-radius: 0.5;
+    font-size: 13pt;
+  }
+}

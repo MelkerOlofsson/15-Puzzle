@@ -1,0 +1,111 @@
+.homehero {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), #534b62),
+    url(../../assets/pexels-magda-ehlers-1586950.jpg);
+  background-size: cover;
+  height: 95vh;
+  color: antiquewhite;
+}
+
+.homehero > h1 {
+  font-size: 48pt;
+}
+
+.homehero > h3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.homehero > .linkbutton {
+  font-size: 24pt;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 2rem;
+  padding: 1rem;
+  color: black;
+  background-color: antiquewhite;
+}
+
+.homehero > .linkbutton:hover {
+  background-color: rgb(181, 169, 152);
+}
+
+.infobutton,
+.infoheading {
+  color: antiquewhite;
+  text-align: center;
+}
+
+.infobutton:hover {
+  color: rgb(181, 169, 152);
+}
+
+.infosection {
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(#534b62, rgba(0, 0, 0, 0.9));
+  min-height: 90vh;
+  padding: 5rem;
+}
+
+.infosection > h2 {
+  margin: auto;
+}
+
+.gamesetting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #534b62;
+}
+
+.gamesetting > h2,
+.gamesetting > h4 {
+  text-align: center;
+  color: antiquewhite;
+  margin: 0.2rem;
+}
+
+.classicmode {
+  background-color: antiquewhite;
+  border: black solid 2px;
+  border-radius: 5rem;
+  margin: auto;
+  padding: 1rem;
+}
+
+.classicmode > label {
+  padding: 0.5rem;
+}
+
+.difficulty {
+  text-align: center;
+  margin: auto;
+  background-color: antiquewhite;
+  padding: 1rem;
+  border: solid 2px black;
+  border-radius: 2rem;
+  margin: 1rem;
+}
+
+#error {
+  color: rgb(255, 65, 65);
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .homehero > h1 {
+    font-size: 33pt;
+    text-align: center;
+  }
+
+  .homehero > h2 {
+    text-align: center;
+    font-size: 16pt;
+  }
+}

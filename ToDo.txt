@@ -1,0 +1,3 @@
+Slumpa talen i current position
+Lägg till knapp som alltid slumpar talen
+Gör kanske en funktion som kollar om förgående objekt eller nästa objekt, alternativt index - 4 eller index + 4  har värdet 16. Isåfall är den klickbar och 16 byter värde med det klickade objektet

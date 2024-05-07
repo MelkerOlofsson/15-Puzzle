@@ -12893,8 +12893,8 @@ function p0() {
             className: "navbaritem",
             to: "/",
             children: M.jsx("img", {
-              src: "../favicon-icons8-free-15-circled-icon-100.png",
-              alt: "",
+              src: "15-Puzzle/favicon-icons8-free-15-circled-icon-100.png",
+              alt: "Logo",
             }),
           }),
         }),

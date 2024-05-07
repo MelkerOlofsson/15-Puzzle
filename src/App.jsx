@@ -14,7 +14,10 @@ function Root() {
       <header>
         <nav>
           <Link className="navbaritem" to="/">
-            <img src="/favicon-icons8-free-15-circled-icon-100.png" alt="" />
+            <img
+              src="/favicon-icons8-free-15-circled-icon-100.png"
+              alt="Logo"
+            />
           </Link>
         </nav>
       </header>

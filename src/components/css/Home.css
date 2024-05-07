@@ -93,6 +93,11 @@
   margin: 1rem;
 }
 
+.difficultyinput {
+  min-width: 2rem;
+  text-align: center;
+}
+
 #error {
   color: rgb(255, 65, 65);
   text-align: center;

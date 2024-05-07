@@ -88,6 +88,7 @@ function Home() {
         <div className="difficulty">
           <h3>Rader</h3>
           <input
+            className="difficultyinput"
             value={boardSize.row}
             max={10}
             min={2}
@@ -98,6 +99,7 @@ function Home() {
           />
           <h3>Kolumner</h3>
           <input
+            className="difficultyinput"
             value={boardSize.column}
             max={10}
             min={2}
